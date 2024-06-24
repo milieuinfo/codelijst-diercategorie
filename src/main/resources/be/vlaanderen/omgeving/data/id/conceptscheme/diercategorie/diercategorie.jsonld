@@ -1,0 +1,925 @@
+{
+    "@context": {
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.omgeving.vlaanderen.be/id/concept/diercategorie/",
+        "collectie": "https://data.omgeving.vlaanderen.be/id/collection/diercategorie/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.omgeving.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.omgeving.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.omgeving.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.omgeving.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.omgeving.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.omgeving.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.omgeving.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.omgeving.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.omgeving.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.omgeving.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.omgeving.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.omgeving.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.omgeving.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.omgeving.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.omgeving.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.omgeving.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.omgeving.vlaanderen.be/id/concept/diercategorie/"
+    },
+    "graph": [
+        {
+            "id": "concept:geiten",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:geitenouderdan1jaar",
+                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
+                "concept:opfokgeitenvan61dagentotenmetéénjaar"
+            ],
+            "narrowerTransitive": [
+                "concept:geitenouderdan1jaar",
+                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
+                "concept:opfokgeitenvan61dagentotenmetéénjaar"
+            ],
+            "prefLabel": "Geiten",
+            "semanticRelation": [
+                "concept:geitenouderdan1jaar",
+                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
+                "concept:opfokgeitenvan61dagentotenmetéénjaar"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:geitenouderdan1jaar",
+            "type": "skos:Concept",
+            "broader": "concept:geiten",
+            "broaderTransitive": "concept:geiten",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Geiten ouder dan 1 jaar",
+            "semanticRelation": "concept:geiten"
+        },
+        {
+            "id": "concept:konijnen",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:vleesenopfokkonijnentotdekleeftijd",
+                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
+            ],
+            "narrowerTransitive": [
+                "concept:vleesenopfokkonijnentotdekleeftijd",
+                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
+            ],
+            "prefLabel": "Konijnen",
+            "semanticRelation": [
+                "concept:vleesenopfokkonijnentotdekleeftijd",
+                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:nertsen",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": "concept:nertsenperfokteef",
+            "narrowerTransitive": "concept:nertsenperfokteef",
+            "prefLabel": "Nertsen",
+            "semanticRelation": "concept:nertsenperfokteef",
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:nertsenperfokteef",
+            "type": "skos:Concept",
+            "broader": "concept:nertsen",
+            "broaderTransitive": "concept:nertsen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Nertsen (per fokteef)",
+            "semanticRelation": "concept:nertsen"
+        },
+        {
+            "id": "concept:opfokgeitenenafmestlammerentotenmet60dagen",
+            "type": "skos:Concept",
+            "broader": "concept:geiten",
+            "broaderTransitive": "concept:geiten",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokgeiten en afmestlammeren tot en met 60 dagen",
+            "semanticRelation": "concept:geiten"
+        },
+        {
+            "id": "concept:opfokgeitenvan61dagentotenmetéénjaar",
+            "type": "skos:Concept",
+            "broader": "concept:geiten",
+            "broaderTransitive": "concept:geiten",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokgeiten van 61 dagen tot en met één jaar",
+            "semanticRelation": "concept:geiten"
+        },
+        {
+            "id": "concept:opfokstruisvogelstot4maanden",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokstruisvogels (tot 4 maanden)",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; tot 6 weken",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; van 6 tot 30 weken",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Ouderdieren van vleeskalkoenen van 30 weken en ouder",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:p-1p-2opfoklegkippen",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-1 + P-2 Opfok legkippen",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-3 + P-4 Legkippen incl. (groot)ouderdieren van legrassen",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:p-5slachtkuikenouderdieren",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-5 Slachtkuikenouderdieren",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:p-6slachtkuikens",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-6 Slachtkuikens",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:p-7opfokslachtkuikenouderdieren",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-7 Opfok slachtkuikenouderdieren",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:paardenenponys",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:paardeninopfokjongerdan3jaar",
+                "concept:ponysinopfokjongerdan3jaar",
+                "concept:volwassenpaarden3jaarenouder",
+                "concept:volwassenponys3jaarenouder"
+            ],
+            "narrowerTransitive": [
+                "concept:paardeninopfokjongerdan3jaar",
+                "concept:ponysinopfokjongerdan3jaar",
+                "concept:volwassenpaarden3jaarenouder",
+                "concept:volwassenponys3jaarenouder"
+            ],
+            "prefLabel": "Paarden en pony's",
+            "semanticRelation": [
+                "concept:paardeninopfokjongerdan3jaar",
+                "concept:ponysinopfokjongerdan3jaar",
+                "concept:volwassenpaarden3jaarenouder",
+                "concept:volwassenponys3jaarenouder"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:paardeninopfokjongerdan3jaar",
+            "type": "skos:Concept",
+            "broader": "concept:paardenenponys",
+            "broaderTransitive": "concept:paardenenponys",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Paarden in opfok (jonger dan 3 jaar)",
+            "semanticRelation": "concept:paardenenponys"
+        },
+        {
+            "id": "concept:pluimvee",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:opfokstruisvogelstot4maanden",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
+                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
+                "concept:p-1p-2opfoklegkippen",
+                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
+                "concept:p-5slachtkuikenouderdieren",
+                "concept:p-6slachtkuikens",
+                "concept:p-7opfokslachtkuikenouderdieren",
+                "concept:struisvogelouderdieren",
+                "concept:vleeskalkoenen",
+                "concept:vleesstruisvogels4tot12maanden"
+            ],
+            "narrowerTransitive": [
+                "concept:opfokstruisvogelstot4maanden",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
+                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
+                "concept:p-1p-2opfoklegkippen",
+                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
+                "concept:p-5slachtkuikenouderdieren",
+                "concept:p-6slachtkuikens",
+                "concept:p-7opfokslachtkuikenouderdieren",
+                "concept:struisvogelouderdieren",
+                "concept:vleeskalkoenen",
+                "concept:vleesstruisvogels4tot12maanden"
+            ],
+            "prefLabel": "Pluimvee",
+            "semanticRelation": [
+                "concept:opfokstruisvogelstot4maanden",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
+                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
+                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
+                "concept:p-1p-2opfoklegkippen",
+                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
+                "concept:p-5slachtkuikenouderdieren",
+                "concept:p-6slachtkuikens",
+                "concept:p-7opfokslachtkuikenouderdieren",
+                "concept:struisvogelouderdieren",
+                "concept:vleeskalkoenen",
+                "concept:vleesstruisvogels4tot12maanden"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:ponysinopfokjongerdan3jaar",
+            "type": "skos:Concept",
+            "broader": "concept:paardenenponys",
+            "broaderTransitive": "concept:paardenenponys",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Pony's in opfok (jonger dan 3 jaar)",
+            "semanticRelation": "concept:paardenenponys"
+        },
+        {
+            "id": "concept:r-1melk-enkalfkoeienouderdan2jaar",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-1 Melk- en kalfkoeien ouder dan 2 jaar",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-2zoogkoeienouderdan2jaar",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-2 Zoogkoeien ouder dan 2 jaar",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-3vrouwelijkjongveetot2jaar",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-3 Vrouwelijk jongvee tot 2 jaar",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-4vleeskalverentot8maanden",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-4 Vleeskalveren tot 8 maanden",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-5vleesstierkalverentot6maanden",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-5 Vleesstierkalveren tot 6 maanden",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-6 Vleesstieren en overig vleesvee van 6 tot 24 maanden (roodvleesproductie)",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar",
+            "type": "skos:Concept",
+            "broader": "concept:runderen",
+            "broaderTransitive": "concept:runderen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-7 Fokstieren en overig rundvee (bv. reforme zoogkoe) ouder dan 2 jaar",
+            "semanticRelation": "concept:runderen"
+        },
+        {
+            "id": "concept:runderen",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:r-1melk-enkalfkoeienouderdan2jaar",
+                "concept:r-2zoogkoeienouderdan2jaar",
+                "concept:r-3vrouwelijkjongveetot2jaar",
+                "concept:r-4vleeskalverentot8maanden",
+                "concept:r-5vleesstierkalverentot6maanden",
+                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
+                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
+            ],
+            "narrowerTransitive": [
+                "concept:r-1melk-enkalfkoeienouderdan2jaar",
+                "concept:r-2zoogkoeienouderdan2jaar",
+                "concept:r-3vrouwelijkjongveetot2jaar",
+                "concept:r-4vleeskalverentot8maanden",
+                "concept:r-5vleesstierkalverentot6maanden",
+                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
+                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
+            ],
+            "prefLabel": "Runderen",
+            "semanticRelation": [
+                "concept:r-1melk-enkalfkoeienouderdan2jaar",
+                "concept:r-2zoogkoeienouderdan2jaar",
+                "concept:r-3vrouwelijkjongveetot2jaar",
+                "concept:r-4vleeskalverentot8maanden",
+                "concept:r-5vleesstierkalverentot6maanden",
+                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
+                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:schapen",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "narrowerTransitive": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "prefLabel": "Schapen",
+            "semanticRelation": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "type": "skos:Concept",
+            "broader": "concept:schapen",
+            "broaderTransitive": "concept:schapen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Schapen ouder dan 1 jaar, inclusief lammeren tot 45 kg (stalperiode van maximaal 3 maanden in winter)",
+            "semanticRelation": "concept:schapen"
+        },
+        {
+            "id": "concept:struisvogelouderdieren",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Struisvogelouderdieren",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:v-1biggen",
+            "type": "skos:Concept",
+            "broader": "concept:varkens",
+            "broaderTransitive": "concept:varkens",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-1 Biggen",
+            "semanticRelation": "concept:varkens"
+        },
+        {
+            "id": "concept:v-2kraamzeugen",
+            "type": "skos:Concept",
+            "broader": "concept:varkens",
+            "broaderTransitive": "concept:varkens",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-2 Kraamzeugen",
+            "semanticRelation": "concept:varkens"
+        },
+        {
+            "id": "concept:v-3zeugenindek-endrachtstal",
+            "type": "skos:Concept",
+            "broader": "concept:varkens",
+            "broaderTransitive": "concept:varkens",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-3 Zeugen in dek- en drachtstal",
+            "semanticRelation": "concept:varkens"
+        },
+        {
+            "id": "concept:v-4vleesvarkens",
+            "type": "skos:Concept",
+            "broader": "concept:varkens",
+            "broaderTransitive": "concept:varkens",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-4 Vleesvarkens",
+            "semanticRelation": "concept:varkens"
+        },
+        {
+            "id": "concept:v-5dekberen7maandenenouder",
+            "type": "skos:Concept",
+            "broader": "concept:varkens",
+            "broaderTransitive": "concept:varkens",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-5 Dekberen, 7 maanden en ouder",
+            "semanticRelation": "concept:varkens"
+        },
+        {
+            "id": "concept:varkens",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:v-1biggen",
+                "concept:v-2kraamzeugen",
+                "concept:v-3zeugenindek-endrachtstal",
+                "concept:v-4vleesvarkens",
+                "concept:v-5dekberen7maandenenouder"
+            ],
+            "narrowerTransitive": [
+                "concept:v-1biggen",
+                "concept:v-2kraamzeugen",
+                "concept:v-3zeugenindek-endrachtstal",
+                "concept:v-4vleesvarkens",
+                "concept:v-5dekberen7maandenenouder"
+            ],
+            "prefLabel": "Varkens",
+            "semanticRelation": [
+                "concept:v-1biggen",
+                "concept:v-2kraamzeugen",
+                "concept:v-3zeugenindek-endrachtstal",
+                "concept:v-4vleesvarkens",
+                "concept:v-5dekberen7maandenenouder"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:vleesenopfokkonijnentotdekleeftijd",
+            "type": "skos:Concept",
+            "broader": "concept:konijnen",
+            "broaderTransitive": "concept:konijnen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Vlees en opfokkonijnen tot dekleeftijd",
+            "semanticRelation": "concept:konijnen"
+        },
+        {
+            "id": "concept:vleeskalkoenen",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Vleeskalkoenen",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:vleesstruisvogels4tot12maanden",
+            "type": "skos:Concept",
+            "broader": "concept:pluimvee",
+            "broaderTransitive": "concept:pluimvee",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Vleesstruisvogels (4 tot 12 maanden)",
+            "semanticRelation": "concept:pluimvee"
+        },
+        {
+            "id": "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd",
+            "type": "skos:Concept",
+            "broader": "concept:konijnen",
+            "broaderTransitive": "concept:konijnen",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Voedsters inclusief 0,15 ram en bijbehorende jongen tot speenleeftijd",
+            "semanticRelation": "concept:konijnen"
+        },
+        {
+            "id": "concept:volwassenpaarden3jaarenouder",
+            "type": "skos:Concept",
+            "broader": "concept:paardenenponys",
+            "broaderTransitive": "concept:paardenenponys",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Volwassen paarden (3 jaar en ouder)",
+            "semanticRelation": "concept:paardenenponys"
+        },
+        {
+            "id": "concept:volwassenponys3jaarenouder",
+            "type": "skos:Concept",
+            "broader": "concept:paardenenponys",
+            "broaderTransitive": "concept:paardenenponys",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Volwassen pony's (3 jaar en ouder)",
+            "semanticRelation": "concept:paardenenponys"
+        },
+        {
+            "id": "conceptscheme:diercategorie",
+            "type": "skos:ConceptScheme",
+            "hasTopConcept": [
+                "concept:geiten",
+                "concept:konijnen",
+                "concept:nertsen",
+                "concept:pluimvee",
+                "concept:paardenenponys",
+                "concept:runderen",
+                "concept:schapen",
+                "concept:varkens"
+            ],
+            "prefLabel": "diercategorie"
+        }
+    ]
+}
