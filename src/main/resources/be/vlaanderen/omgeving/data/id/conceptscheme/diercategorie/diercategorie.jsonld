@@ -395,529 +395,529 @@
     },
     "graph": [
         {
-            "id": "concept:geiten",
+            "id": "concept:0b91929d5312613e17867fd74fe03ce7",
             "type": "skos:Concept",
-            "inScheme": "conceptscheme:diercategorie",
-            "narrower": [
-                "concept:geitenouderdan1jaar",
-                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
-                "concept:opfokgeitenvan61dagentotenmetéénjaar"
-            ],
-            "narrowerTransitive": [
-                "concept:geitenouderdan1jaar",
-                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
-                "concept:opfokgeitenvan61dagentotenmetéénjaar"
-            ],
-            "prefLabel": "Geiten",
-            "semanticRelation": [
-                "concept:geitenouderdan1jaar",
-                "concept:opfokgeitenenafmestlammerentotenmet60dagen",
-                "concept:opfokgeitenvan61dagentotenmetéénjaar"
-            ],
-            "topConceptOf": "conceptscheme:diercategorie"
-        },
-        {
-            "id": "concept:geitenouderdan1jaar",
-            "type": "skos:Concept",
-            "broader": "concept:geiten",
-            "broaderTransitive": "concept:geiten",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Geiten ouder dan 1 jaar",
-            "semanticRelation": "concept:geiten"
-        },
-        {
-            "id": "concept:konijnen",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:diercategorie",
-            "narrower": [
-                "concept:vleesenopfokkonijnentotdekleeftijd",
-                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
-            ],
-            "narrowerTransitive": [
-                "concept:vleesenopfokkonijnentotdekleeftijd",
-                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
-            ],
-            "prefLabel": "Konijnen",
-            "semanticRelation": [
-                "concept:vleesenopfokkonijnentotdekleeftijd",
-                "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd"
-            ],
-            "topConceptOf": "conceptscheme:diercategorie"
-        },
-        {
-            "id": "concept:nertsen",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:diercategorie",
-            "narrower": "concept:nertsenperfokteef",
-            "narrowerTransitive": "concept:nertsenperfokteef",
-            "prefLabel": "Nertsen",
-            "semanticRelation": "concept:nertsenperfokteef",
-            "topConceptOf": "conceptscheme:diercategorie"
-        },
-        {
-            "id": "concept:nertsenperfokteef",
-            "type": "skos:Concept",
-            "broader": "concept:nertsen",
-            "broaderTransitive": "concept:nertsen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Nertsen (per fokteef)",
-            "semanticRelation": "concept:nertsen"
-        },
-        {
-            "id": "concept:opfokgeitenenafmestlammerentotenmet60dagen",
-            "type": "skos:Concept",
-            "broader": "concept:geiten",
-            "broaderTransitive": "concept:geiten",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Opfokgeiten en afmestlammeren tot en met 60 dagen",
-            "semanticRelation": "concept:geiten"
-        },
-        {
-            "id": "concept:opfokgeitenvan61dagentotenmetéénjaar",
-            "type": "skos:Concept",
-            "broader": "concept:geiten",
-            "broaderTransitive": "concept:geiten",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Opfokgeiten van 61 dagen tot en met één jaar",
-            "semanticRelation": "concept:geiten"
-        },
-        {
-            "id": "concept:opfokstruisvogelstot4maanden",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Opfokstruisvogels (tot 4 maanden)",
-            "semanticRelation": "concept:pluimvee"
-        },
-        {
-            "id": "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; tot 6 weken",
-            "semanticRelation": "concept:pluimvee"
-        },
-        {
-            "id": "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; van 6 tot 30 weken",
-            "semanticRelation": "concept:pluimvee"
-        },
-        {
-            "id": "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Ouderdieren van vleeskalkoenen van 30 weken en ouder",
-            "semanticRelation": "concept:pluimvee"
-        },
-        {
-            "id": "concept:p-1p-2opfoklegkippen",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "P-1 + P-2 Opfok legkippen",
-            "semanticRelation": "concept:pluimvee"
-        },
-        {
-            "id": "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
-            "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
             "prefLabel": "P-3 + P-4 Legkippen incl. (groot)ouderdieren van legrassen",
-            "semanticRelation": "concept:pluimvee"
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:p-5slachtkuikenouderdieren",
+            "id": "concept:13d2845e465013f96913f6f6491fd28a",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:d9fd7c30def22e286e5572fbea550671",
+            "broaderTransitive": "concept:d9fd7c30def22e286e5572fbea550671",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "P-5 Slachtkuikenouderdieren",
-            "semanticRelation": "concept:pluimvee"
+            "prefLabel": "Volwassen pony's (3 jaar en ouder)",
+            "semanticRelation": "concept:d9fd7c30def22e286e5572fbea550671"
         },
         {
-            "id": "concept:p-6slachtkuikens",
+            "id": "concept:143ff987d8746e2cf68114ec8a251d48",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "broaderTransitive": "concept:cca6225bdac54ebddbde06e1d6208605",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "P-6 Slachtkuikens",
-            "semanticRelation": "concept:pluimvee"
+            "prefLabel": "V-3 Zeugen in dek- en drachtstal",
+            "semanticRelation": "concept:cca6225bdac54ebddbde06e1d6208605"
         },
         {
-            "id": "concept:p-7opfokslachtkuikenouderdieren",
+            "id": "concept:15847b002ff45ed2b1363b201386df2c",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "P-7 Opfok slachtkuikenouderdieren",
-            "semanticRelation": "concept:pluimvee"
+            "prefLabel": "Vleeskalkoenen",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:paardenenponys",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:diercategorie",
-            "narrower": [
-                "concept:paardeninopfokjongerdan3jaar",
-                "concept:ponysinopfokjongerdan3jaar",
-                "concept:volwassenpaarden3jaarenouder",
-                "concept:volwassenponys3jaarenouder"
-            ],
-            "narrowerTransitive": [
-                "concept:paardeninopfokjongerdan3jaar",
-                "concept:ponysinopfokjongerdan3jaar",
-                "concept:volwassenpaarden3jaarenouder",
-                "concept:volwassenponys3jaarenouder"
-            ],
-            "prefLabel": "Paarden en pony's",
-            "semanticRelation": [
-                "concept:paardeninopfokjongerdan3jaar",
-                "concept:ponysinopfokjongerdan3jaar",
-                "concept:volwassenpaarden3jaarenouder",
-                "concept:volwassenponys3jaarenouder"
-            ],
-            "topConceptOf": "conceptscheme:diercategorie"
-        },
-        {
-            "id": "concept:paardeninopfokjongerdan3jaar",
-            "type": "skos:Concept",
-            "broader": "concept:paardenenponys",
-            "broaderTransitive": "concept:paardenenponys",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Paarden in opfok (jonger dan 3 jaar)",
-            "semanticRelation": "concept:paardenenponys"
-        },
-        {
-            "id": "concept:pluimvee",
+            "id": "concept:199fa216c056dbb2960b1df28dd94710",
             "type": "skos:Concept",
             "inScheme": "conceptscheme:diercategorie",
             "narrower": [
-                "concept:opfokstruisvogelstot4maanden",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
-                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
-                "concept:p-1p-2opfoklegkippen",
-                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
-                "concept:p-5slachtkuikenouderdieren",
-                "concept:p-6slachtkuikens",
-                "concept:p-7opfokslachtkuikenouderdieren",
-                "concept:struisvogelouderdieren",
-                "concept:vleeskalkoenen",
-                "concept:vleesstruisvogels4tot12maanden"
+                "concept:0b91929d5312613e17867fd74fe03ce7",
+                "concept:15847b002ff45ed2b1363b201386df2c",
+                "concept:43b33d8f31aac8d4ba27007f2d3b5f0f",
+                "concept:4870b8f44816e0a9952885a906beafae",
+                "concept:48be1a9d0d80a3ad59360cad8655fcb3",
+                "concept:4ca5d1ae4bb15368ff5bcba40fdd52ce",
+                "concept:569c77f07559c1608831989b5e82b018",
+                "concept:59d930762c9029840e34ad96583715bd",
+                "concept:5ca35b6b0e77d6cad81d6506742d92ac",
+                "concept:964757cbc7e777f23bca15057bb3443d",
+                "concept:ba8170ee9317780efc26d47fb08e7f40",
+                "concept:c34d684c649907eeb63f5a8f7237237a"
             ],
             "narrowerTransitive": [
-                "concept:opfokstruisvogelstot4maanden",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
-                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
-                "concept:p-1p-2opfoklegkippen",
-                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
-                "concept:p-5slachtkuikenouderdieren",
-                "concept:p-6slachtkuikens",
-                "concept:p-7opfokslachtkuikenouderdieren",
-                "concept:struisvogelouderdieren",
-                "concept:vleeskalkoenen",
-                "concept:vleesstruisvogels4tot12maanden"
+                "concept:0b91929d5312613e17867fd74fe03ce7",
+                "concept:15847b002ff45ed2b1363b201386df2c",
+                "concept:43b33d8f31aac8d4ba27007f2d3b5f0f",
+                "concept:4870b8f44816e0a9952885a906beafae",
+                "concept:48be1a9d0d80a3ad59360cad8655fcb3",
+                "concept:4ca5d1ae4bb15368ff5bcba40fdd52ce",
+                "concept:569c77f07559c1608831989b5e82b018",
+                "concept:59d930762c9029840e34ad96583715bd",
+                "concept:5ca35b6b0e77d6cad81d6506742d92ac",
+                "concept:964757cbc7e777f23bca15057bb3443d",
+                "concept:ba8170ee9317780efc26d47fb08e7f40",
+                "concept:c34d684c649907eeb63f5a8f7237237a"
             ],
             "prefLabel": "Pluimvee",
             "semanticRelation": [
-                "concept:opfokstruisvogelstot4maanden",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;tot6weken",
-                "concept:ouderdierenvanvleeskalkoeneninopfok;van6tot30weken",
-                "concept:ouderdierenvanvleeskalkoenenvan30wekenenouder",
-                "concept:p-1p-2opfoklegkippen",
-                "concept:p-3p-4legkippenincl.grootouderdierenvanlegrassen",
-                "concept:p-5slachtkuikenouderdieren",
-                "concept:p-6slachtkuikens",
-                "concept:p-7opfokslachtkuikenouderdieren",
-                "concept:struisvogelouderdieren",
-                "concept:vleeskalkoenen",
-                "concept:vleesstruisvogels4tot12maanden"
+                "concept:0b91929d5312613e17867fd74fe03ce7",
+                "concept:15847b002ff45ed2b1363b201386df2c",
+                "concept:43b33d8f31aac8d4ba27007f2d3b5f0f",
+                "concept:4870b8f44816e0a9952885a906beafae",
+                "concept:48be1a9d0d80a3ad59360cad8655fcb3",
+                "concept:4ca5d1ae4bb15368ff5bcba40fdd52ce",
+                "concept:569c77f07559c1608831989b5e82b018",
+                "concept:59d930762c9029840e34ad96583715bd",
+                "concept:5ca35b6b0e77d6cad81d6506742d92ac",
+                "concept:964757cbc7e777f23bca15057bb3443d",
+                "concept:ba8170ee9317780efc26d47fb08e7f40",
+                "concept:c34d684c649907eeb63f5a8f7237237a"
             ],
             "topConceptOf": "conceptscheme:diercategorie"
         },
         {
-            "id": "concept:ponysinopfokjongerdan3jaar",
+            "id": "concept:1ec3f647e2eb5a74d7786ed74b81268b",
             "type": "skos:Concept",
-            "broader": "concept:paardenenponys",
-            "broaderTransitive": "concept:paardenenponys",
+            "broader": "concept:d9fd7c30def22e286e5572fbea550671",
+            "broaderTransitive": "concept:d9fd7c30def22e286e5572fbea550671",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Pony's in opfok (jonger dan 3 jaar)",
-            "semanticRelation": "concept:paardenenponys"
+            "prefLabel": "Paarden in opfok (jonger dan 3 jaar)",
+            "semanticRelation": "concept:d9fd7c30def22e286e5572fbea550671"
         },
         {
-            "id": "concept:r-1melk-enkalfkoeienouderdan2jaar",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-1 Melk- en kalfkoeien ouder dan 2 jaar",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-2zoogkoeienouderdan2jaar",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-2 Zoogkoeien ouder dan 2 jaar",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-3vrouwelijkjongveetot2jaar",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-3 Vrouwelijk jongvee tot 2 jaar",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-4vleeskalverentot8maanden",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-4 Vleeskalveren tot 8 maanden",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-5vleesstierkalverentot6maanden",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-5 Vleesstierkalveren tot 6 maanden",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-6 Vleesstieren en overig vleesvee van 6 tot 24 maanden (roodvleesproductie)",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar",
-            "type": "skos:Concept",
-            "broader": "concept:runderen",
-            "broaderTransitive": "concept:runderen",
-            "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "R-7 Fokstieren en overig rundvee (bv. reforme zoogkoe) ouder dan 2 jaar",
-            "semanticRelation": "concept:runderen"
-        },
-        {
-            "id": "concept:runderen",
+            "id": "concept:42371675ac2933265b0f6319daeff3ba",
             "type": "skos:Concept",
             "inScheme": "conceptscheme:diercategorie",
-            "narrower": [
-                "concept:r-1melk-enkalfkoeienouderdan2jaar",
-                "concept:r-2zoogkoeienouderdan2jaar",
-                "concept:r-3vrouwelijkjongveetot2jaar",
-                "concept:r-4vleeskalverentot8maanden",
-                "concept:r-5vleesstierkalverentot6maanden",
-                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
-                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
-            ],
-            "narrowerTransitive": [
-                "concept:r-1melk-enkalfkoeienouderdan2jaar",
-                "concept:r-2zoogkoeienouderdan2jaar",
-                "concept:r-3vrouwelijkjongveetot2jaar",
-                "concept:r-4vleeskalverentot8maanden",
-                "concept:r-5vleesstierkalverentot6maanden",
-                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
-                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
-            ],
-            "prefLabel": "Runderen",
-            "semanticRelation": [
-                "concept:r-1melk-enkalfkoeienouderdan2jaar",
-                "concept:r-2zoogkoeienouderdan2jaar",
-                "concept:r-3vrouwelijkjongveetot2jaar",
-                "concept:r-4vleeskalverentot8maanden",
-                "concept:r-5vleesstierkalverentot6maanden",
-                "concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie",
-                "concept:r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar"
-            ],
-            "topConceptOf": "conceptscheme:diercategorie"
-        },
-        {
-            "id": "concept:schapen",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:diercategorie",
-            "narrower": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
-            "narrowerTransitive": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "narrower": "concept:650476346cc24d1bbb7434e907c4d0b5",
+            "narrowerTransitive": "concept:650476346cc24d1bbb7434e907c4d0b5",
             "prefLabel": "Schapen",
-            "semanticRelation": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "semanticRelation": "concept:650476346cc24d1bbb7434e907c4d0b5",
             "topConceptOf": "conceptscheme:diercategorie"
         },
         {
-            "id": "concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter",
+            "id": "concept:43b33d8f31aac8d4ba27007f2d3b5f0f",
             "type": "skos:Concept",
-            "broader": "concept:schapen",
-            "broaderTransitive": "concept:schapen",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Schapen ouder dan 1 jaar, inclusief lammeren tot 45 kg (stalperiode van maximaal 3 maanden in winter)",
-            "semanticRelation": "concept:schapen"
+            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; van 6 tot 30 weken",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:struisvogelouderdieren",
+            "id": "concept:4870b8f44816e0a9952885a906beafae",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
             "prefLabel": "Struisvogelouderdieren",
-            "semanticRelation": "concept:pluimvee"
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:v-1biggen",
+            "id": "concept:48af8da7f326974040f41bc616ec3631",
             "type": "skos:Concept",
-            "broader": "concept:varkens",
-            "broaderTransitive": "concept:varkens",
+            "broader": "concept:e676ea924b33f8bda63e8f827437b663",
+            "broaderTransitive": "concept:e676ea924b33f8bda63e8f827437b663",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "V-1 Biggen",
-            "semanticRelation": "concept:varkens"
+            "prefLabel": "Vlees en opfokkonijnen tot dekleeftijd",
+            "semanticRelation": "concept:e676ea924b33f8bda63e8f827437b663"
         },
         {
-            "id": "concept:v-2kraamzeugen",
+            "id": "concept:48be1a9d0d80a3ad59360cad8655fcb3",
             "type": "skos:Concept",
-            "broader": "concept:varkens",
-            "broaderTransitive": "concept:varkens",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "V-2 Kraamzeugen",
-            "semanticRelation": "concept:varkens"
+            "prefLabel": "Ouderdieren van vleeskalkoenen in opfok; tot 6 weken",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:v-3zeugenindek-endrachtstal",
+            "id": "concept:4b209eabbd5324e480134415a116f377",
             "type": "skos:Concept",
-            "broader": "concept:varkens",
-            "broaderTransitive": "concept:varkens",
+            "broader": "concept:d9fd7c30def22e286e5572fbea550671",
+            "broaderTransitive": "concept:d9fd7c30def22e286e5572fbea550671",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "V-3 Zeugen in dek- en drachtstal",
-            "semanticRelation": "concept:varkens"
+            "prefLabel": "Pony's in opfok (jonger dan 3 jaar)",
+            "semanticRelation": "concept:d9fd7c30def22e286e5572fbea550671"
         },
         {
-            "id": "concept:v-4vleesvarkens",
+            "id": "concept:4ca5d1ae4bb15368ff5bcba40fdd52ce",
             "type": "skos:Concept",
-            "broader": "concept:varkens",
-            "broaderTransitive": "concept:varkens",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "V-4 Vleesvarkens",
-            "semanticRelation": "concept:varkens"
+            "prefLabel": "P-7 Opfok slachtkuikenouderdieren",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
         },
         {
-            "id": "concept:v-5dekberen7maandenenouder",
+            "id": "concept:537a5fe196787a37246fb2e8934c69ce",
             "type": "skos:Concept",
-            "broader": "concept:varkens",
-            "broaderTransitive": "concept:varkens",
+            "broader": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "broaderTransitive": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokgeiten en afmestlammeren tot en met 60 dagen",
+            "semanticRelation": "concept:fba36ce54dc876621e740aa2f5187dec"
+        },
+        {
+            "id": "concept:569c77f07559c1608831989b5e82b018",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-1 + P-2 Opfok legkippen",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:59d930762c9029840e34ad96583715bd",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Ouderdieren van vleeskalkoenen van 30 weken en ouder",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:5ca35b6b0e77d6cad81d6506742d92ac",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-6 Slachtkuikens",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:614d9b3f9867315253f764aeded6df6e",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-4 Vleeskalveren tot 8 maanden",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:650476346cc24d1bbb7434e907c4d0b5",
+            "type": "skos:Concept",
+            "broader": "concept:42371675ac2933265b0f6319daeff3ba",
+            "broaderTransitive": "concept:42371675ac2933265b0f6319daeff3ba",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Schapen ouder dan 1 jaar, inclusief lammeren tot 45 kg (stalperiode van maximaal 3 maanden in winter)",
+            "semanticRelation": "concept:42371675ac2933265b0f6319daeff3ba"
+        },
+        {
+            "id": "concept:68c3a52e770d947355771e732529dfda",
+            "type": "skos:Concept",
+            "broader": "concept:e676ea924b33f8bda63e8f827437b663",
+            "broaderTransitive": "concept:e676ea924b33f8bda63e8f827437b663",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Voedsters inclusief 0,15 ram en bijbehorende jongen tot speenleeftijd",
+            "semanticRelation": "concept:e676ea924b33f8bda63e8f827437b663"
+        },
+        {
+            "id": "concept:76cbbc3330bfc989051971e4bc735dd9",
+            "type": "skos:Concept",
+            "broader": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "broaderTransitive": "concept:cca6225bdac54ebddbde06e1d6208605",
             "inScheme": "conceptscheme:diercategorie",
             "prefLabel": "V-5 Dekberen, 7 maanden en ouder",
-            "semanticRelation": "concept:varkens"
+            "semanticRelation": "concept:cca6225bdac54ebddbde06e1d6208605"
         },
         {
-            "id": "concept:varkens",
+            "id": "concept:77741fd00385becebb6db894007647e8",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": "concept:a7d42615b4d91a2d00e4efb9468c1a8a",
+            "narrowerTransitive": "concept:a7d42615b4d91a2d00e4efb9468c1a8a",
+            "prefLabel": "Nertsen",
+            "semanticRelation": "concept:a7d42615b4d91a2d00e4efb9468c1a8a",
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:78a7bce2a3245a95d6b9f7543f332de5",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-6 Vleesstieren en overig vleesvee van 6 tot 24 maanden (roodvleesproductie)",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:7b5f7873a6dc66adf697514fe5ef1d07",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-7 Fokstieren en overig rundvee (bv. reforme zoogkoe) ouder dan 2 jaar",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:8c2dffa0c3f37d5acb1d2dbd9b0d4218",
+            "type": "skos:Concept",
+            "broader": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "broaderTransitive": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "V-2 Kraamzeugen",
+            "semanticRelation": "concept:cca6225bdac54ebddbde06e1d6208605"
+        },
+        {
+            "id": "concept:964757cbc7e777f23bca15057bb3443d",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Vleesstruisvogels (4 tot 12 maanden)",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:9fb35e5146a975b1f348fbcd028072d8",
+            "type": "skos:Concept",
+            "broader": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "broaderTransitive": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Geiten ouder dan 1 jaar",
+            "semanticRelation": "concept:fba36ce54dc876621e740aa2f5187dec"
+        },
+        {
+            "id": "concept:a7d42615b4d91a2d00e4efb9468c1a8a",
+            "type": "skos:Concept",
+            "broader": "concept:77741fd00385becebb6db894007647e8",
+            "broaderTransitive": "concept:77741fd00385becebb6db894007647e8",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Nertsen (per fokteef)",
+            "semanticRelation": "concept:77741fd00385becebb6db894007647e8"
+        },
+        {
+            "id": "concept:b9fb63e63c1c13e3f0b19fe46eafa700",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-2 Zoogkoeien ouder dan 2 jaar",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:ba8170ee9317780efc26d47fb08e7f40",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "P-5 Slachtkuikenouderdieren",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:bba98f3431eebe0ed9c2a44787a817be",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-5 Vleesstierkalveren tot 6 maanden",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:c34d684c649907eeb63f5a8f7237237a",
+            "type": "skos:Concept",
+            "broader": "concept:199fa216c056dbb2960b1df28dd94710",
+            "broaderTransitive": "concept:199fa216c056dbb2960b1df28dd94710",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokstruisvogels (tot 4 maanden)",
+            "semanticRelation": "concept:199fa216c056dbb2960b1df28dd94710"
+        },
+        {
+            "id": "concept:c6a392b5afa28084beeee2f0e1a52b64",
+            "type": "skos:Concept",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "R-1 Melk- en kalfkoeien ouder dan 2 jaar",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
+        },
+        {
+            "id": "concept:cca6225bdac54ebddbde06e1d6208605",
             "type": "skos:Concept",
             "inScheme": "conceptscheme:diercategorie",
             "narrower": [
-                "concept:v-1biggen",
-                "concept:v-2kraamzeugen",
-                "concept:v-3zeugenindek-endrachtstal",
-                "concept:v-4vleesvarkens",
-                "concept:v-5dekberen7maandenenouder"
+                "concept:143ff987d8746e2cf68114ec8a251d48",
+                "concept:76cbbc3330bfc989051971e4bc735dd9",
+                "concept:8c2dffa0c3f37d5acb1d2dbd9b0d4218",
+                "concept:d0fe3780c6ce579284b98ca8bc7de1d9",
+                "concept:ed1f3facf5b4413c8ea0bea66ae11715"
             ],
             "narrowerTransitive": [
-                "concept:v-1biggen",
-                "concept:v-2kraamzeugen",
-                "concept:v-3zeugenindek-endrachtstal",
-                "concept:v-4vleesvarkens",
-                "concept:v-5dekberen7maandenenouder"
+                "concept:143ff987d8746e2cf68114ec8a251d48",
+                "concept:76cbbc3330bfc989051971e4bc735dd9",
+                "concept:8c2dffa0c3f37d5acb1d2dbd9b0d4218",
+                "concept:d0fe3780c6ce579284b98ca8bc7de1d9",
+                "concept:ed1f3facf5b4413c8ea0bea66ae11715"
             ],
             "prefLabel": "Varkens",
             "semanticRelation": [
-                "concept:v-1biggen",
-                "concept:v-2kraamzeugen",
-                "concept:v-3zeugenindek-endrachtstal",
-                "concept:v-4vleesvarkens",
-                "concept:v-5dekberen7maandenenouder"
+                "concept:143ff987d8746e2cf68114ec8a251d48",
+                "concept:76cbbc3330bfc989051971e4bc735dd9",
+                "concept:8c2dffa0c3f37d5acb1d2dbd9b0d4218",
+                "concept:d0fe3780c6ce579284b98ca8bc7de1d9",
+                "concept:ed1f3facf5b4413c8ea0bea66ae11715"
             ],
             "topConceptOf": "conceptscheme:diercategorie"
         },
         {
-            "id": "concept:vleesenopfokkonijnentotdekleeftijd",
+            "id": "concept:d0fe3780c6ce579284b98ca8bc7de1d9",
             "type": "skos:Concept",
-            "broader": "concept:konijnen",
-            "broaderTransitive": "concept:konijnen",
+            "broader": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "broaderTransitive": "concept:cca6225bdac54ebddbde06e1d6208605",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Vlees en opfokkonijnen tot dekleeftijd",
-            "semanticRelation": "concept:konijnen"
+            "prefLabel": "V-1 Biggen",
+            "semanticRelation": "concept:cca6225bdac54ebddbde06e1d6208605"
         },
         {
-            "id": "concept:vleeskalkoenen",
+            "id": "concept:d1955e100dfc6266c4475a5a7a5f12d5",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
+            "broader": "concept:d5b3bd16c0dfa184020ed0277b0de347",
+            "broaderTransitive": "concept:d5b3bd16c0dfa184020ed0277b0de347",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Vleeskalkoenen",
-            "semanticRelation": "concept:pluimvee"
+            "prefLabel": "R-3 Vrouwelijk jongvee tot 2 jaar",
+            "semanticRelation": "concept:d5b3bd16c0dfa184020ed0277b0de347"
         },
         {
-            "id": "concept:vleesstruisvogels4tot12maanden",
+            "id": "concept:d5b3bd16c0dfa184020ed0277b0de347",
             "type": "skos:Concept",
-            "broader": "concept:pluimvee",
-            "broaderTransitive": "concept:pluimvee",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Vleesstruisvogels (4 tot 12 maanden)",
-            "semanticRelation": "concept:pluimvee"
+            "narrower": [
+                "concept:614d9b3f9867315253f764aeded6df6e",
+                "concept:78a7bce2a3245a95d6b9f7543f332de5",
+                "concept:7b5f7873a6dc66adf697514fe5ef1d07",
+                "concept:b9fb63e63c1c13e3f0b19fe46eafa700",
+                "concept:bba98f3431eebe0ed9c2a44787a817be",
+                "concept:c6a392b5afa28084beeee2f0e1a52b64",
+                "concept:d1955e100dfc6266c4475a5a7a5f12d5"
+            ],
+            "narrowerTransitive": [
+                "concept:614d9b3f9867315253f764aeded6df6e",
+                "concept:78a7bce2a3245a95d6b9f7543f332de5",
+                "concept:7b5f7873a6dc66adf697514fe5ef1d07",
+                "concept:b9fb63e63c1c13e3f0b19fe46eafa700",
+                "concept:bba98f3431eebe0ed9c2a44787a817be",
+                "concept:c6a392b5afa28084beeee2f0e1a52b64",
+                "concept:d1955e100dfc6266c4475a5a7a5f12d5"
+            ],
+            "prefLabel": "Runderen",
+            "semanticRelation": [
+                "concept:614d9b3f9867315253f764aeded6df6e",
+                "concept:78a7bce2a3245a95d6b9f7543f332de5",
+                "concept:7b5f7873a6dc66adf697514fe5ef1d07",
+                "concept:b9fb63e63c1c13e3f0b19fe46eafa700",
+                "concept:bba98f3431eebe0ed9c2a44787a817be",
+                "concept:c6a392b5afa28084beeee2f0e1a52b64",
+                "concept:d1955e100dfc6266c4475a5a7a5f12d5"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
         },
         {
-            "id": "concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd",
+            "id": "concept:d9fd7c30def22e286e5572fbea550671",
             "type": "skos:Concept",
-            "broader": "concept:konijnen",
-            "broaderTransitive": "concept:konijnen",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Voedsters inclusief 0,15 ram en bijbehorende jongen tot speenleeftijd",
-            "semanticRelation": "concept:konijnen"
+            "narrower": [
+                "concept:13d2845e465013f96913f6f6491fd28a",
+                "concept:1ec3f647e2eb5a74d7786ed74b81268b",
+                "concept:4b209eabbd5324e480134415a116f377",
+                "concept:e97228d1bb905c517f5d83754bb21372"
+            ],
+            "narrowerTransitive": [
+                "concept:13d2845e465013f96913f6f6491fd28a",
+                "concept:1ec3f647e2eb5a74d7786ed74b81268b",
+                "concept:4b209eabbd5324e480134415a116f377",
+                "concept:e97228d1bb905c517f5d83754bb21372"
+            ],
+            "prefLabel": "Paarden en pony's",
+            "semanticRelation": [
+                "concept:13d2845e465013f96913f6f6491fd28a",
+                "concept:1ec3f647e2eb5a74d7786ed74b81268b",
+                "concept:4b209eabbd5324e480134415a116f377",
+                "concept:e97228d1bb905c517f5d83754bb21372"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
         },
         {
-            "id": "concept:volwassenpaarden3jaarenouder",
+            "id": "concept:e676ea924b33f8bda63e8f827437b663",
             "type": "skos:Concept",
-            "broader": "concept:paardenenponys",
-            "broaderTransitive": "concept:paardenenponys",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:48af8da7f326974040f41bc616ec3631",
+                "concept:68c3a52e770d947355771e732529dfda"
+            ],
+            "narrowerTransitive": [
+                "concept:48af8da7f326974040f41bc616ec3631",
+                "concept:68c3a52e770d947355771e732529dfda"
+            ],
+            "prefLabel": "Konijnen",
+            "semanticRelation": [
+                "concept:48af8da7f326974040f41bc616ec3631",
+                "concept:68c3a52e770d947355771e732529dfda"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
+        },
+        {
+            "id": "concept:e97228d1bb905c517f5d83754bb21372",
+            "type": "skos:Concept",
+            "broader": "concept:d9fd7c30def22e286e5572fbea550671",
+            "broaderTransitive": "concept:d9fd7c30def22e286e5572fbea550671",
             "inScheme": "conceptscheme:diercategorie",
             "prefLabel": "Volwassen paarden (3 jaar en ouder)",
-            "semanticRelation": "concept:paardenenponys"
+            "semanticRelation": "concept:d9fd7c30def22e286e5572fbea550671"
         },
         {
-            "id": "concept:volwassenponys3jaarenouder",
+            "id": "concept:ed1f3facf5b4413c8ea0bea66ae11715",
             "type": "skos:Concept",
-            "broader": "concept:paardenenponys",
-            "broaderTransitive": "concept:paardenenponys",
+            "broader": "concept:cca6225bdac54ebddbde06e1d6208605",
+            "broaderTransitive": "concept:cca6225bdac54ebddbde06e1d6208605",
             "inScheme": "conceptscheme:diercategorie",
-            "prefLabel": "Volwassen pony's (3 jaar en ouder)",
-            "semanticRelation": "concept:paardenenponys"
+            "prefLabel": "V-4 Vleesvarkens",
+            "semanticRelation": "concept:cca6225bdac54ebddbde06e1d6208605"
+        },
+        {
+            "id": "concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa",
+            "type": "skos:Concept",
+            "broader": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "broaderTransitive": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "inScheme": "conceptscheme:diercategorie",
+            "prefLabel": "Opfokgeiten van 61 dagen tot en met één jaar",
+            "semanticRelation": "concept:fba36ce54dc876621e740aa2f5187dec"
+        },
+        {
+            "id": "concept:fba36ce54dc876621e740aa2f5187dec",
+            "type": "skos:Concept",
+            "inScheme": "conceptscheme:diercategorie",
+            "narrower": [
+                "concept:537a5fe196787a37246fb2e8934c69ce",
+                "concept:9fb35e5146a975b1f348fbcd028072d8",
+                "concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa"
+            ],
+            "narrowerTransitive": [
+                "concept:537a5fe196787a37246fb2e8934c69ce",
+                "concept:9fb35e5146a975b1f348fbcd028072d8",
+                "concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa"
+            ],
+            "prefLabel": "Geiten",
+            "semanticRelation": [
+                "concept:537a5fe196787a37246fb2e8934c69ce",
+                "concept:9fb35e5146a975b1f348fbcd028072d8",
+                "concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa"
+            ],
+            "topConceptOf": "conceptscheme:diercategorie"
         },
         {
             "id": "conceptscheme:diercategorie",
             "type": "skos:ConceptScheme",
             "hasTopConcept": [
-                "concept:geiten",
-                "concept:konijnen",
-                "concept:nertsen",
-                "concept:pluimvee",
-                "concept:paardenenponys",
-                "concept:runderen",
-                "concept:schapen",
-                "concept:varkens"
+                "concept:199fa216c056dbb2960b1df28dd94710",
+                "concept:d9fd7c30def22e286e5572fbea550671",
+                "concept:cca6225bdac54ebddbde06e1d6208605",
+                "concept:42371675ac2933265b0f6319daeff3ba",
+                "concept:e676ea924b33f8bda63e8f827437b663",
+                "concept:fba36ce54dc876621e740aa2f5187dec",
+                "concept:d5b3bd16c0dfa184020ed0277b0de347",
+                "concept:77741fd00385becebb6db894007647e8"
             ],
             "prefLabel": "diercategorie"
         }

@@ -54,272 +54,272 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-concept:geiten a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:geitenouderdan1jaar, concept:opfokgeitenenafmestlammerentotenmet60dagen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/opfokgeitenvan61dagentotenmetéénjaar>;
-    skos:narrowerTransitive concept:geitenouderdan1jaar, concept:opfokgeitenenafmestlammerentotenmet60dagen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/opfokgeitenvan61dagentotenmetéénjaar>;
-    skos:prefLabel "Geiten"@nl;
-    skos:semanticRelation concept:geitenouderdan1jaar, concept:opfokgeitenenafmestlammerentotenmet60dagen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/opfokgeitenvan61dagentotenmetéénjaar>;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:geitenouderdan1jaar a skos:Concept;
-    skos:broader concept:geiten;
-    skos:broaderTransitive concept:geiten;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Geiten ouder dan 1 jaar"@nl;
-    skos:semanticRelation concept:geiten.
-concept:konijnen a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:vleesenopfokkonijnentotdekleeftijd, concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd;
-    skos:narrowerTransitive concept:vleesenopfokkonijnentotdekleeftijd, concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd;
-    skos:prefLabel "Konijnen"@nl;
-    skos:semanticRelation concept:vleesenopfokkonijnentotdekleeftijd, concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:nertsen a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:nertsenperfokteef;
-    skos:narrowerTransitive concept:nertsenperfokteef;
-    skos:prefLabel "Nertsen"@nl;
-    skos:semanticRelation concept:nertsenperfokteef;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:nertsenperfokteef a skos:Concept;
-    skos:broader concept:nertsen;
-    skos:broaderTransitive concept:nertsen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Nertsen (per fokteef)"@nl;
-    skos:semanticRelation concept:nertsen.
-concept:opfokgeitenenafmestlammerentotenmet60dagen a skos:Concept;
-    skos:broader concept:geiten;
-    skos:broaderTransitive concept:geiten;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Opfokgeiten en afmestlammeren tot en met 60 dagen"@nl;
-    skos:semanticRelation concept:geiten.
-<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/opfokgeitenvan61dagentotenmetéénjaar> a skos:Concept;
-    skos:broader concept:geiten;
-    skos:broaderTransitive concept:geiten;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Opfokgeiten van 61 dagen tot en met één jaar"@nl;
-    skos:semanticRelation concept:geiten.
-concept:opfokstruisvogelstot4maanden a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Opfokstruisvogels (tot 4 maanden)"@nl;
-    skos:semanticRelation concept:pluimvee.
-<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;tot6weken> a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Ouderdieren van vleeskalkoenen in opfok; tot 6 weken"@nl;
-    skos:semanticRelation concept:pluimvee.
-<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;van6tot30weken> a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Ouderdieren van vleeskalkoenen in opfok; van 6 tot 30 weken"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:ouderdierenvanvleeskalkoenenvan30wekenenouder a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Ouderdieren van vleeskalkoenen van 30 weken en ouder"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:p-1p-2opfoklegkippen a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "P-1 + P-2 Opfok legkippen"@nl;
-    skos:semanticRelation concept:pluimvee.
-<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/p-3p-4legkippenincl.grootouderdierenvanlegrassen> a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/0b91929d5312613e17867fd74fe03ce7> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
     skos:inScheme conceptscheme:diercategorie;
     skos:prefLabel "P-3 + P-4 Legkippen incl. (groot)ouderdieren van legrassen"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:p-5slachtkuikenouderdieren a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "P-5 Slachtkuikenouderdieren"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:p-6slachtkuikens a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "P-6 Slachtkuikens"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:p-7opfokslachtkuikenouderdieren a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "P-7 Opfok slachtkuikenouderdieren"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:paardenenponys a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:paardeninopfokjongerdan3jaar, concept:ponysinopfokjongerdan3jaar, concept:volwassenpaarden3jaarenouder, concept:volwassenponys3jaarenouder;
-    skos:narrowerTransitive concept:paardeninopfokjongerdan3jaar, concept:ponysinopfokjongerdan3jaar, concept:volwassenpaarden3jaarenouder, concept:volwassenponys3jaarenouder;
-    skos:prefLabel "Paarden en pony's"@nl;
-    skos:semanticRelation concept:paardeninopfokjongerdan3jaar, concept:ponysinopfokjongerdan3jaar, concept:volwassenpaarden3jaarenouder, concept:volwassenponys3jaarenouder;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:paardeninopfokjongerdan3jaar a skos:Concept;
-    skos:broader concept:paardenenponys;
-    skos:broaderTransitive concept:paardenenponys;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Paarden in opfok (jonger dan 3 jaar)"@nl;
-    skos:semanticRelation concept:paardenenponys.
-concept:pluimvee a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:opfokstruisvogelstot4maanden, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;tot6weken>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;van6tot30weken>, concept:ouderdierenvanvleeskalkoenenvan30wekenenouder, concept:p-1p-2opfoklegkippen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/p-3p-4legkippenincl.grootouderdierenvanlegrassen>, concept:p-5slachtkuikenouderdieren, concept:p-6slachtkuikens, concept:p-7opfokslachtkuikenouderdieren, concept:struisvogelouderdieren, concept:vleeskalkoenen, concept:vleesstruisvogels4tot12maanden;
-    skos:narrowerTransitive concept:opfokstruisvogelstot4maanden, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;tot6weken>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;van6tot30weken>, concept:ouderdierenvanvleeskalkoenenvan30wekenenouder, concept:p-1p-2opfoklegkippen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/p-3p-4legkippenincl.grootouderdierenvanlegrassen>, concept:p-5slachtkuikenouderdieren, concept:p-6slachtkuikens, concept:p-7opfokslachtkuikenouderdieren, concept:struisvogelouderdieren, concept:vleeskalkoenen, concept:vleesstruisvogels4tot12maanden;
-    skos:prefLabel "Pluimvee"@nl;
-    skos:semanticRelation concept:opfokstruisvogelstot4maanden, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;tot6weken>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/ouderdierenvanvleeskalkoeneninopfok;van6tot30weken>, concept:ouderdierenvanvleeskalkoenenvan30wekenenouder, concept:p-1p-2opfoklegkippen, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/p-3p-4legkippenincl.grootouderdierenvanlegrassen>, concept:p-5slachtkuikenouderdieren, concept:p-6slachtkuikens, concept:p-7opfokslachtkuikenouderdieren, concept:struisvogelouderdieren, concept:vleeskalkoenen, concept:vleesstruisvogels4tot12maanden;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:ponysinopfokjongerdan3jaar a skos:Concept;
-    skos:broader concept:paardenenponys;
-    skos:broaderTransitive concept:paardenenponys;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Pony's in opfok (jonger dan 3 jaar)"@nl;
-    skos:semanticRelation concept:paardenenponys.
-concept:r-1melk-enkalfkoeienouderdan2jaar a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-1 Melk- en kalfkoeien ouder dan 2 jaar"@nl;
-    skos:semanticRelation concept:runderen.
-concept:r-2zoogkoeienouderdan2jaar a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-2 Zoogkoeien ouder dan 2 jaar"@nl;
-    skos:semanticRelation concept:runderen.
-concept:r-3vrouwelijkjongveetot2jaar a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-3 Vrouwelijk jongvee tot 2 jaar"@nl;
-    skos:semanticRelation concept:runderen.
-concept:r-4vleeskalverentot8maanden a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-4 Vleeskalveren tot 8 maanden"@nl;
-    skos:semanticRelation concept:runderen.
-concept:r-5vleesstierkalverentot6maanden a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-5 Vleesstierkalveren tot 6 maanden"@nl;
-    skos:semanticRelation concept:runderen.
-concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-6 Vleesstieren en overig vleesvee van 6 tot 24 maanden (roodvleesproductie)"@nl;
-    skos:semanticRelation concept:runderen.
-<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar> a skos:Concept;
-    skos:broader concept:runderen;
-    skos:broaderTransitive concept:runderen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "R-7 Fokstieren en overig rundvee (bv. reforme zoogkoe) ouder dan 2 jaar"@nl;
-    skos:semanticRelation concept:runderen.
-concept:runderen a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:r-1melk-enkalfkoeienouderdan2jaar, concept:r-2zoogkoeienouderdan2jaar, concept:r-3vrouwelijkjongveetot2jaar, concept:r-4vleeskalverentot8maanden, concept:r-5vleesstierkalverentot6maanden, concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar>;
-    skos:narrowerTransitive concept:r-1melk-enkalfkoeienouderdan2jaar, concept:r-2zoogkoeienouderdan2jaar, concept:r-3vrouwelijkjongveetot2jaar, concept:r-4vleeskalverentot8maanden, concept:r-5vleesstierkalverentot6maanden, concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar>;
-    skos:prefLabel "Runderen"@nl;
-    skos:semanticRelation concept:r-1melk-enkalfkoeienouderdan2jaar, concept:r-2zoogkoeienouderdan2jaar, concept:r-3vrouwelijkjongveetot2jaar, concept:r-4vleeskalverentot8maanden, concept:r-5vleesstierkalverentot6maanden, concept:r-6vleesstierenenoverigvleesveevan6tot24maandenroodvleesproductie, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/r-7fokstierenenoverigrundveebv.reformezoogkoeouderdan2jaar>;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:schapen a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter;
-    skos:narrowerTransitive concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter;
-    skos:prefLabel "Schapen"@nl;
-    skos:semanticRelation concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:schapenouderdan1jaarinclusieflammerentot45kgstalperiodevanmaximaal3maandeninwinter a skos:Concept;
-    skos:broader concept:schapen;
-    skos:broaderTransitive concept:schapen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Schapen ouder dan 1 jaar, inclusief lammeren tot 45 kg (stalperiode van maximaal 3 maanden in winter)"@nl;
-    skos:semanticRelation concept:schapen.
-concept:struisvogelouderdieren a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Struisvogelouderdieren"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:v-1biggen a skos:Concept;
-    skos:broader concept:varkens;
-    skos:broaderTransitive concept:varkens;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "V-1 Biggen"@nl;
-    skos:semanticRelation concept:varkens.
-concept:v-2kraamzeugen a skos:Concept;
-    skos:broader concept:varkens;
-    skos:broaderTransitive concept:varkens;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "V-2 Kraamzeugen"@nl;
-    skos:semanticRelation concept:varkens.
-concept:v-3zeugenindek-endrachtstal a skos:Concept;
-    skos:broader concept:varkens;
-    skos:broaderTransitive concept:varkens;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "V-3 Zeugen in dek- en drachtstal"@nl;
-    skos:semanticRelation concept:varkens.
-concept:v-4vleesvarkens a skos:Concept;
-    skos:broader concept:varkens;
-    skos:broaderTransitive concept:varkens;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "V-4 Vleesvarkens"@nl;
-    skos:semanticRelation concept:varkens.
-concept:v-5dekberen7maandenenouder a skos:Concept;
-    skos:broader concept:varkens;
-    skos:broaderTransitive concept:varkens;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "V-5 Dekberen, 7 maanden en ouder"@nl;
-    skos:semanticRelation concept:varkens.
-concept:varkens a skos:Concept;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:narrower concept:v-1biggen, concept:v-2kraamzeugen, concept:v-3zeugenindek-endrachtstal, concept:v-4vleesvarkens, concept:v-5dekberen7maandenenouder;
-    skos:narrowerTransitive concept:v-1biggen, concept:v-2kraamzeugen, concept:v-3zeugenindek-endrachtstal, concept:v-4vleesvarkens, concept:v-5dekberen7maandenenouder;
-    skos:prefLabel "Varkens"@nl;
-    skos:semanticRelation concept:v-1biggen, concept:v-2kraamzeugen, concept:v-3zeugenindek-endrachtstal, concept:v-4vleesvarkens, concept:v-5dekberen7maandenenouder;
-    skos:topConceptOf conceptscheme:diercategorie.
-concept:vleesenopfokkonijnentotdekleeftijd a skos:Concept;
-    skos:broader concept:konijnen;
-    skos:broaderTransitive concept:konijnen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Vlees en opfokkonijnen tot dekleeftijd"@nl;
-    skos:semanticRelation concept:konijnen.
-concept:vleeskalkoenen a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Vleeskalkoenen"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:vleesstruisvogels4tot12maanden a skos:Concept;
-    skos:broader concept:pluimvee;
-    skos:broaderTransitive concept:pluimvee;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Vleesstruisvogels (4 tot 12 maanden)"@nl;
-    skos:semanticRelation concept:pluimvee.
-concept:voedstersinclusief015ramenbijbehorendejongentotspeenleeftijd a skos:Concept;
-    skos:broader concept:konijnen;
-    skos:broaderTransitive concept:konijnen;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Voedsters inclusief 0,15 ram en bijbehorende jongen tot speenleeftijd"@nl;
-    skos:semanticRelation concept:konijnen.
-concept:volwassenpaarden3jaarenouder a skos:Concept;
-    skos:broader concept:paardenenponys;
-    skos:broaderTransitive concept:paardenenponys;
-    skos:inScheme conceptscheme:diercategorie;
-    skos:prefLabel "Volwassen paarden (3 jaar en ouder)"@nl;
-    skos:semanticRelation concept:paardenenponys.
-concept:volwassenponys3jaarenouder a skos:Concept;
-    skos:broader concept:paardenenponys;
-    skos:broaderTransitive concept:paardenenponys;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/13d2845e465013f96913f6f6491fd28a> a skos:Concept;
+    skos:broader concept:d9fd7c30def22e286e5572fbea550671;
+    skos:broaderTransitive concept:d9fd7c30def22e286e5572fbea550671;
     skos:inScheme conceptscheme:diercategorie;
     skos:prefLabel "Volwassen pony's (3 jaar en ouder)"@nl;
-    skos:semanticRelation concept:paardenenponys.
+    skos:semanticRelation concept:d9fd7c30def22e286e5572fbea550671.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/143ff987d8746e2cf68114ec8a251d48> a skos:Concept;
+    skos:broader concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:broaderTransitive concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "V-3 Zeugen in dek- en drachtstal"@nl;
+    skos:semanticRelation concept:cca6225bdac54ebddbde06e1d6208605.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/15847b002ff45ed2b1363b201386df2c> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Vleeskalkoenen"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710> a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/0b91929d5312613e17867fd74fe03ce7>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/15847b002ff45ed2b1363b201386df2c>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/43b33d8f31aac8d4ba27007f2d3b5f0f>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4870b8f44816e0a9952885a906beafae>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48be1a9d0d80a3ad59360cad8655fcb3>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4ca5d1ae4bb15368ff5bcba40fdd52ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/569c77f07559c1608831989b5e82b018>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/59d930762c9029840e34ad96583715bd>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/5ca35b6b0e77d6cad81d6506742d92ac>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/964757cbc7e777f23bca15057bb3443d>, concept:ba8170ee9317780efc26d47fb08e7f40, concept:c34d684c649907eeb63f5a8f7237237a;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/0b91929d5312613e17867fd74fe03ce7>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/15847b002ff45ed2b1363b201386df2c>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/43b33d8f31aac8d4ba27007f2d3b5f0f>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4870b8f44816e0a9952885a906beafae>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48be1a9d0d80a3ad59360cad8655fcb3>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4ca5d1ae4bb15368ff5bcba40fdd52ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/569c77f07559c1608831989b5e82b018>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/59d930762c9029840e34ad96583715bd>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/5ca35b6b0e77d6cad81d6506742d92ac>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/964757cbc7e777f23bca15057bb3443d>, concept:ba8170ee9317780efc26d47fb08e7f40, concept:c34d684c649907eeb63f5a8f7237237a;
+    skos:prefLabel "Pluimvee"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/0b91929d5312613e17867fd74fe03ce7>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/15847b002ff45ed2b1363b201386df2c>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/43b33d8f31aac8d4ba27007f2d3b5f0f>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4870b8f44816e0a9952885a906beafae>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48be1a9d0d80a3ad59360cad8655fcb3>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4ca5d1ae4bb15368ff5bcba40fdd52ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/569c77f07559c1608831989b5e82b018>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/59d930762c9029840e34ad96583715bd>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/5ca35b6b0e77d6cad81d6506742d92ac>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/964757cbc7e777f23bca15057bb3443d>, concept:ba8170ee9317780efc26d47fb08e7f40, concept:c34d684c649907eeb63f5a8f7237237a;
+    skos:topConceptOf conceptscheme:diercategorie.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/1ec3f647e2eb5a74d7786ed74b81268b> a skos:Concept;
+    skos:broader concept:d9fd7c30def22e286e5572fbea550671;
+    skos:broaderTransitive concept:d9fd7c30def22e286e5572fbea550671;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Paarden in opfok (jonger dan 3 jaar)"@nl;
+    skos:semanticRelation concept:d9fd7c30def22e286e5572fbea550671.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/42371675ac2933265b0f6319daeff3ba> a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/650476346cc24d1bbb7434e907c4d0b5>;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/650476346cc24d1bbb7434e907c4d0b5>;
+    skos:prefLabel "Schapen"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/650476346cc24d1bbb7434e907c4d0b5>;
+    skos:topConceptOf conceptscheme:diercategorie.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/43b33d8f31aac8d4ba27007f2d3b5f0f> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Ouderdieren van vleeskalkoenen in opfok; van 6 tot 30 weken"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4870b8f44816e0a9952885a906beafae> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Struisvogelouderdieren"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48af8da7f326974040f41bc616ec3631> a skos:Concept;
+    skos:broader concept:e676ea924b33f8bda63e8f827437b663;
+    skos:broaderTransitive concept:e676ea924b33f8bda63e8f827437b663;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Vlees en opfokkonijnen tot dekleeftijd"@nl;
+    skos:semanticRelation concept:e676ea924b33f8bda63e8f827437b663.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48be1a9d0d80a3ad59360cad8655fcb3> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Ouderdieren van vleeskalkoenen in opfok; tot 6 weken"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4b209eabbd5324e480134415a116f377> a skos:Concept;
+    skos:broader concept:d9fd7c30def22e286e5572fbea550671;
+    skos:broaderTransitive concept:d9fd7c30def22e286e5572fbea550671;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Pony's in opfok (jonger dan 3 jaar)"@nl;
+    skos:semanticRelation concept:d9fd7c30def22e286e5572fbea550671.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4ca5d1ae4bb15368ff5bcba40fdd52ce> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "P-7 Opfok slachtkuikenouderdieren"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/537a5fe196787a37246fb2e8934c69ce> a skos:Concept;
+    skos:broader concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:broaderTransitive concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Opfokgeiten en afmestlammeren tot en met 60 dagen"@nl;
+    skos:semanticRelation concept:fba36ce54dc876621e740aa2f5187dec.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/569c77f07559c1608831989b5e82b018> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "P-1 + P-2 Opfok legkippen"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/59d930762c9029840e34ad96583715bd> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Ouderdieren van vleeskalkoenen van 30 weken en ouder"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/5ca35b6b0e77d6cad81d6506742d92ac> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "P-6 Slachtkuikens"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/614d9b3f9867315253f764aeded6df6e> a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-4 Vleeskalveren tot 8 maanden"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/650476346cc24d1bbb7434e907c4d0b5> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/42371675ac2933265b0f6319daeff3ba>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/42371675ac2933265b0f6319daeff3ba>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Schapen ouder dan 1 jaar, inclusief lammeren tot 45 kg (stalperiode van maximaal 3 maanden in winter)"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/42371675ac2933265b0f6319daeff3ba>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/68c3a52e770d947355771e732529dfda> a skos:Concept;
+    skos:broader concept:e676ea924b33f8bda63e8f827437b663;
+    skos:broaderTransitive concept:e676ea924b33f8bda63e8f827437b663;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Voedsters inclusief 0,15 ram en bijbehorende jongen tot speenleeftijd"@nl;
+    skos:semanticRelation concept:e676ea924b33f8bda63e8f827437b663.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/76cbbc3330bfc989051971e4bc735dd9> a skos:Concept;
+    skos:broader concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:broaderTransitive concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "V-5 Dekberen, 7 maanden en ouder"@nl;
+    skos:semanticRelation concept:cca6225bdac54ebddbde06e1d6208605.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/77741fd00385becebb6db894007647e8> a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower concept:a7d42615b4d91a2d00e4efb9468c1a8a;
+    skos:narrowerTransitive concept:a7d42615b4d91a2d00e4efb9468c1a8a;
+    skos:prefLabel "Nertsen"@nl;
+    skos:semanticRelation concept:a7d42615b4d91a2d00e4efb9468c1a8a;
+    skos:topConceptOf conceptscheme:diercategorie.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/78a7bce2a3245a95d6b9f7543f332de5> a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-6 Vleesstieren en overig vleesvee van 6 tot 24 maanden (roodvleesproductie)"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/7b5f7873a6dc66adf697514fe5ef1d07> a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-7 Fokstieren en overig rundvee (bv. reforme zoogkoe) ouder dan 2 jaar"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/8c2dffa0c3f37d5acb1d2dbd9b0d4218> a skos:Concept;
+    skos:broader concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:broaderTransitive concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "V-2 Kraamzeugen"@nl;
+    skos:semanticRelation concept:cca6225bdac54ebddbde06e1d6208605.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/964757cbc7e777f23bca15057bb3443d> a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Vleesstruisvogels (4 tot 12 maanden)"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+<https://data.omgeving.vlaanderen.be/id/concept/diercategorie/9fb35e5146a975b1f348fbcd028072d8> a skos:Concept;
+    skos:broader concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:broaderTransitive concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Geiten ouder dan 1 jaar"@nl;
+    skos:semanticRelation concept:fba36ce54dc876621e740aa2f5187dec.
+concept:a7d42615b4d91a2d00e4efb9468c1a8a a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/77741fd00385becebb6db894007647e8>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/77741fd00385becebb6db894007647e8>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Nertsen (per fokteef)"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/77741fd00385becebb6db894007647e8>.
+concept:b9fb63e63c1c13e3f0b19fe46eafa700 a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-2 Zoogkoeien ouder dan 2 jaar"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+concept:ba8170ee9317780efc26d47fb08e7f40 a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "P-5 Slachtkuikenouderdieren"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+concept:bba98f3431eebe0ed9c2a44787a817be a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-5 Vleesstierkalveren tot 6 maanden"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+concept:c34d684c649907eeb63f5a8f7237237a a skos:Concept;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Opfokstruisvogels (tot 4 maanden)"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>.
+concept:c6a392b5afa28084beeee2f0e1a52b64 a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-1 Melk- en kalfkoeien ouder dan 2 jaar"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+concept:cca6225bdac54ebddbde06e1d6208605 a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/143ff987d8746e2cf68114ec8a251d48>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/76cbbc3330bfc989051971e4bc735dd9>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/8c2dffa0c3f37d5acb1d2dbd9b0d4218>, concept:d0fe3780c6ce579284b98ca8bc7de1d9, concept:ed1f3facf5b4413c8ea0bea66ae11715;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/143ff987d8746e2cf68114ec8a251d48>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/76cbbc3330bfc989051971e4bc735dd9>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/8c2dffa0c3f37d5acb1d2dbd9b0d4218>, concept:d0fe3780c6ce579284b98ca8bc7de1d9, concept:ed1f3facf5b4413c8ea0bea66ae11715;
+    skos:prefLabel "Varkens"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/143ff987d8746e2cf68114ec8a251d48>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/76cbbc3330bfc989051971e4bc735dd9>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/8c2dffa0c3f37d5acb1d2dbd9b0d4218>, concept:d0fe3780c6ce579284b98ca8bc7de1d9, concept:ed1f3facf5b4413c8ea0bea66ae11715;
+    skos:topConceptOf conceptscheme:diercategorie.
+concept:d0fe3780c6ce579284b98ca8bc7de1d9 a skos:Concept;
+    skos:broader concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:broaderTransitive concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "V-1 Biggen"@nl;
+    skos:semanticRelation concept:cca6225bdac54ebddbde06e1d6208605.
+concept:d1955e100dfc6266c4475a5a7a5f12d5 a skos:Concept;
+    skos:broader concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:broaderTransitive concept:d5b3bd16c0dfa184020ed0277b0de347;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "R-3 Vrouwelijk jongvee tot 2 jaar"@nl;
+    skos:semanticRelation concept:d5b3bd16c0dfa184020ed0277b0de347.
+concept:d5b3bd16c0dfa184020ed0277b0de347 a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/614d9b3f9867315253f764aeded6df6e>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/78a7bce2a3245a95d6b9f7543f332de5>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/7b5f7873a6dc66adf697514fe5ef1d07>, concept:b9fb63e63c1c13e3f0b19fe46eafa700, concept:bba98f3431eebe0ed9c2a44787a817be, concept:c6a392b5afa28084beeee2f0e1a52b64, concept:d1955e100dfc6266c4475a5a7a5f12d5;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/614d9b3f9867315253f764aeded6df6e>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/78a7bce2a3245a95d6b9f7543f332de5>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/7b5f7873a6dc66adf697514fe5ef1d07>, concept:b9fb63e63c1c13e3f0b19fe46eafa700, concept:bba98f3431eebe0ed9c2a44787a817be, concept:c6a392b5afa28084beeee2f0e1a52b64, concept:d1955e100dfc6266c4475a5a7a5f12d5;
+    skos:prefLabel "Runderen"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/614d9b3f9867315253f764aeded6df6e>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/78a7bce2a3245a95d6b9f7543f332de5>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/7b5f7873a6dc66adf697514fe5ef1d07>, concept:b9fb63e63c1c13e3f0b19fe46eafa700, concept:bba98f3431eebe0ed9c2a44787a817be, concept:c6a392b5afa28084beeee2f0e1a52b64, concept:d1955e100dfc6266c4475a5a7a5f12d5;
+    skos:topConceptOf conceptscheme:diercategorie.
+concept:d9fd7c30def22e286e5572fbea550671 a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/13d2845e465013f96913f6f6491fd28a>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/1ec3f647e2eb5a74d7786ed74b81268b>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4b209eabbd5324e480134415a116f377>, concept:e97228d1bb905c517f5d83754bb21372;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/13d2845e465013f96913f6f6491fd28a>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/1ec3f647e2eb5a74d7786ed74b81268b>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4b209eabbd5324e480134415a116f377>, concept:e97228d1bb905c517f5d83754bb21372;
+    skos:prefLabel "Paarden en pony's"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/13d2845e465013f96913f6f6491fd28a>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/1ec3f647e2eb5a74d7786ed74b81268b>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/4b209eabbd5324e480134415a116f377>, concept:e97228d1bb905c517f5d83754bb21372;
+    skos:topConceptOf conceptscheme:diercategorie.
+concept:e676ea924b33f8bda63e8f827437b663 a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48af8da7f326974040f41bc616ec3631>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/68c3a52e770d947355771e732529dfda>;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48af8da7f326974040f41bc616ec3631>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/68c3a52e770d947355771e732529dfda>;
+    skos:prefLabel "Konijnen"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/48af8da7f326974040f41bc616ec3631>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/68c3a52e770d947355771e732529dfda>;
+    skos:topConceptOf conceptscheme:diercategorie.
+concept:e97228d1bb905c517f5d83754bb21372 a skos:Concept;
+    skos:broader concept:d9fd7c30def22e286e5572fbea550671;
+    skos:broaderTransitive concept:d9fd7c30def22e286e5572fbea550671;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Volwassen paarden (3 jaar en ouder)"@nl;
+    skos:semanticRelation concept:d9fd7c30def22e286e5572fbea550671.
+concept:ed1f3facf5b4413c8ea0bea66ae11715 a skos:Concept;
+    skos:broader concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:broaderTransitive concept:cca6225bdac54ebddbde06e1d6208605;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "V-4 Vleesvarkens"@nl;
+    skos:semanticRelation concept:cca6225bdac54ebddbde06e1d6208605.
+concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa a skos:Concept;
+    skos:broader concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:broaderTransitive concept:fba36ce54dc876621e740aa2f5187dec;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:prefLabel "Opfokgeiten van 61 dagen tot en met één jaar"@nl;
+    skos:semanticRelation concept:fba36ce54dc876621e740aa2f5187dec.
+concept:fba36ce54dc876621e740aa2f5187dec a skos:Concept;
+    skos:inScheme conceptscheme:diercategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/537a5fe196787a37246fb2e8934c69ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/9fb35e5146a975b1f348fbcd028072d8>, concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/537a5fe196787a37246fb2e8934c69ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/9fb35e5146a975b1f348fbcd028072d8>, concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa;
+    skos:prefLabel "Geiten"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/537a5fe196787a37246fb2e8934c69ce>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/9fb35e5146a975b1f348fbcd028072d8>, concept:fb7aa4fbb3d8cb693051cdfe88d9f1fa;
+    skos:topConceptOf conceptscheme:diercategorie.
 conceptscheme:diercategorie a skos:ConceptScheme;
-    skos:hasTopConcept concept:geiten, concept:konijnen, concept:nertsen, concept:paardenenponys, concept:pluimvee, concept:runderen, concept:schapen, concept:varkens;
+    skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/199fa216c056dbb2960b1df28dd94710>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/42371675ac2933265b0f6319daeff3ba>, <https://data.omgeving.vlaanderen.be/id/concept/diercategorie/77741fd00385becebb6db894007647e8>, concept:cca6225bdac54ebddbde06e1d6208605, concept:d5b3bd16c0dfa184020ed0277b0de347, concept:d9fd7c30def22e286e5572fbea550671, concept:e676ea924b33f8bda63e8f827437b663, concept:fba36ce54dc876621e740aa2f5187dec;
     skos:prefLabel "diercategorie"@nl.
