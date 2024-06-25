@@ -16,6 +16,5 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .idea/
-bamboo-specs/
 codelijst-diercategorie.iml
 

@@ -4,8 +4,13 @@ skos:
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
   prefixes :
+    dca : https://data.omgeving.vlaanderen.be/id/concept/diercategorie/
     concept : https://data.omgeving.vlaanderen.be/id/concept/diercategorie/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/diercategorie/
+    rm : https://data.omgeving.vlaanderen.be/id/concept/reducerende_maatregel/
+    st : https://data.omgeving.vlaanderen.be/id/concept/stalsysteem/
+    sc : https://data.omgeving.vlaanderen.be/id/concept/stalconfiguratie/
+    lw : https://data.omgeving.vlaanderen.be/id/concept/luchtwasser/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/
   name: diercategorie
   turtle: .ttl
