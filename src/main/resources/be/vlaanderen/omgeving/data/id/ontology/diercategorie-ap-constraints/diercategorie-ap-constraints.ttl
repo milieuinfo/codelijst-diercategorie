@@ -22,6 +22,7 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix csc:           <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
 @prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix stalemissie:   <https://data.omgeving.vlaanderen.be/ns/stalemissie#> .
 
 omg_ont:matrix-ap-constraints
     a               owl:Ontology ;
@@ -91,8 +92,12 @@ ons:matrix
                      omg_ps:references, omg_ps:definition,
                      omg_ps:prefLabel, omg_ps:theme,
                       omg_ps:topConceptOf, omg_ps:altLabel,
-                     omg_ps:rdf_type, omg_ps:note ;
+                     omg_ps:rdf_type, omg_ps:note,
+                     omg_ps:broader, omg_ps:narrower,
+                     omg_ps:reducerende_maatregel, omg_ps:diercategorie ;
     sh:closed true ;
+    # afgeleid door skos-rules.n3 uit broader/narrower
+    sh:ignoredProperties ( skos:broaderTransitive skos:narrowerTransitive skos:semanticRelation ) ;
     sh:targetClass   skos:Concept .
 
 
@@ -129,30 +134,29 @@ omg_ps:theme
     sh:name          "thema"@en ;
     sh:description   "De relatie naar een europees thema"@en ;
     rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
-    sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          dcat:theme .
 
-#omg_ps:narrower
-#    a                sh:PropertyShape ;
-#    rdfs:label       "specifieker concept"@en ;
-#    sh:name          "specifieker concept"@en ;
-#    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
-#    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
-#    sh:class         skos:Concept ;
-#    sh:nodeKind      sh:IRI ;
-#    sh:path          skos:narrower .
+omg_ps:narrower
+    a                sh:PropertyShape ;
+    rdfs:label       "specifieker concept"@en ;
+    sh:name          "specifieker concept"@en ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@en ;
+    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:narrower .
 
-#omg_ps:broader
-#    a                sh:PropertyShape ;
-#    rdfs:label       "breder concept"@en ;
-#    sh:name          "breder concept"@en ;
-#    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
-#    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
-#    sh:class         skos:Concept ;
-#    sh:maxCount      1 ;
-#    sh:nodeKind      sh:IRI ;
-#    sh:path          skos:broader .
+omg_ps:broader
+    a                sh:PropertyShape ;
+    rdfs:label       "breder concept"@en ;
+    sh:name          "breder concept"@en ;
+    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
+    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:broader .
 
 omg_ps:topConceptOf
     a                sh:PropertyShape ;
@@ -304,3 +308,23 @@ omg_ps:inScheme
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:inScheme .
+
+omg_ps:reducerende_maatregel
+    a                sh:PropertyShape ;
+    rdfs:label       "reducerende maatregel"@nl ;
+    sh:name          "reducerende maatregel"@nl ;
+    sh:description   "De emissiereducerende maatregel(en) of luchtwasser(s) die deel uitmaken van een stalconfiguratie."@nl ;
+    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          stalemissie:reducerende_maatregel .
+
+omg_ps:diercategorie
+    a                sh:PropertyShape ;
+    rdfs:label       "diercategorie"@nl ;
+    sh:name          "diercategorie"@nl ;
+    sh:description   "De diercategorie waarvoor een stalconfiguratie geldt."@nl ;
+    rdfs:isDefinedBy omg_ont:matrix-ap-constraints, omg_voc:matrix-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          stalemissie:diercategorie .

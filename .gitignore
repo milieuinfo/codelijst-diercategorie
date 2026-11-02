@@ -9,7 +9,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
-
+src/R
 # Eclipse m2e generated files
 # Eclipse Core
 .project
@@ -17,4 +17,9 @@ buildNumber.properties
 .classpath
 .idea/
 codelijst-diercategorie.iml
+node_modules
+temp
+validation
+src/.env
+
 

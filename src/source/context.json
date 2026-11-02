@@ -1,4 +1,5 @@
 {
+  "provenance": {"@id": "http://purl.org/dc/terms/provenance"},
   "sparql-service-description-graph": {
     "@id" : "http://www.w3.org/ns/sparql-service-description#graph",
     "@type" : "@id"
@@ -22,7 +23,8 @@
   },
   "reducerende_maatregel" : {
     "@id" : "https://data.omgeving.vlaanderen.be/ns/stalemissie#reducerende_maatregel",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "diercategorie" : {
     "@id" : "https://data.omgeving.vlaanderen.be/ns/stalemissie#diercategorie",
@@ -254,7 +256,8 @@
   },
   "hasTopConcept" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "uri" : {
     "@id" : "@id",
@@ -327,11 +330,13 @@
   },
   "narrower" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "narrowerTransitive" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "narrowMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
@@ -339,7 +344,8 @@
   },
   "semanticRelation" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "belongsTo" : {
     "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
